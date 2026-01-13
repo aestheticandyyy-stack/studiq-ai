@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Home, Brain, LayoutGrid, GraduationCap, LogOut } from 'lucide-react';
-import Dashboard from './components/Dashboard.tsx';
-import StudyAI from './components/StudyAI.tsx';
-import Quiz from './components/Quiz.tsx';
-import Flashcards from './components/Flashcards.tsx';
-import Auth from './components/Auth.tsx';
+import Dashboard from './components/Dashboard';
+import StudyAI from './components/StudyAI';
+import Quiz from './components/Quiz';
+import Flashcards from './components/Flashcards';
+import Auth from './components/Auth';
 import { Tab, User } from './types';
 
 const App: React.FC = () => {
